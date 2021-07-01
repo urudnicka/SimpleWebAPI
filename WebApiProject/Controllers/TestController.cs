@@ -23,7 +23,7 @@ namespace WebApiProject.Controllers
 
             string reversed = sb.ToString();
 
-            // wiem, że zaczynanie pętli od 1 jest "karygodne",
+            // wiem, że zaczynanie pętli for od 1 jest "karygodne",
             // ale uznałam, że przy warunku "parzyste wystąpienie"
             // bardziej mylące byłoby iterowanie od 0 i odwracanie
             // warunku - tu 'i' jest wystąpieniem
